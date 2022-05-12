@@ -30,7 +30,7 @@ public class ImpCityService implements ICityService {
             String img;
 
             while(resultSet.next()){
-                name = resultSet.getString("name");
+                name = resultSet.getString("nombre");
                 lat = resultSet.getDouble("lat");
                 lon = resultSet.getDouble("lon");
                 img = resultSet.getString("img");
